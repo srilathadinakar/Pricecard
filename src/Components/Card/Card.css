@@ -1,0 +1,23 @@
+body{
+    background: rgb(3,100,230) !important;
+    background: radial-gradient(circle, rgba(3,100,230,1) 0%, rgba(49,171,254,1) 100%) !important;    
+}
+.head{
+    text-align: center;
+}
+.card{
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: .2s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+}
+.card-footer{
+    border-top: none;
+    background:none;
+    text-align: center;
+}
+p svg{
+    margin-right: 10px;
+}
+.card:hover{
+    transform: scale(1.03);
+}
